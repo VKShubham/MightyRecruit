@@ -1,0 +1,8 @@
+/* In your global CSS or a relevant CSS module */
+ul {
+    @apply list-disc pl-5;
+  }
+  ol {
+    @apply list-decimal pl-5;
+  }
+  
