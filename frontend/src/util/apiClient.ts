@@ -4,7 +4,7 @@ import { logout } from "@/service/AuthService";
 import axios from "axios"; // your user removal action
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "http://localhost:3000/api",
   withCredentials: true,
 });
 

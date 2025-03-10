@@ -61,7 +61,7 @@ export const getApplicationDetails = async (application_id: string):Promise<Axio
 
 export const getNextStageDetails = async (application_id: string):Promise<AxiosResponse> => {
     try {
-        const response = await apiClient.get(`http://localhost:3000/application/nextStage/${application_id}`);
+        const response = await apiClient.get(`${BASE_URL}/nextStage/${application_id}`);
         return response;
     } catch (error) {
        throw error
